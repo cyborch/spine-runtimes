@@ -41,9 +41,6 @@
 		43C32885170B0DBE004A9460 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C32879170B0DBE004A9460 /* Icon.png */; };
 		43C32886170B0DBE004A9460 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C3287A170B0DBE004A9460 /* Icon@2x.png */; };
 		43C32888170B0DBE004A9460 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 43C3287C170B0DBE004A9460 /* iTunesArtwork */; };
-		43C3288D170B0EF3004A9460 /* LICENSE_cocos2d.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C3288A170B0EF3004A9460 /* LICENSE_cocos2d.txt */; };
-		43C3288E170B0EF3004A9460 /* LICENSE_CocosDenshion.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C3288B170B0EF3004A9460 /* LICENSE_CocosDenshion.txt */; };
-		43C3288F170B0EF3004A9460 /* LICENSE_Kazmath.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C3288C170B0EF3004A9460 /* LICENSE_Kazmath.txt */; };
 		43C32994170B0F14004A9460 /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32892170B0F14004A9460 /* CCAction.m */; };
 		43C32995170B0F14004A9460 /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32894170B0F14004A9460 /* CCActionCamera.m */; };
 		43C32996170B0F14004A9460 /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32896170B0F14004A9460 /* CCActionCatmullRom.m */; };
@@ -111,7 +108,6 @@
 		43C329D4170B0F15004A9460 /* CCTransitionPageTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32924170B0F14004A9460 /* CCTransitionPageTurn.m */; };
 		43C329D5170B0F15004A9460 /* CCTransitionProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32926170B0F14004A9460 /* CCTransitionProgress.m */; };
 		43C329D6170B0F15004A9460 /* cocos2d.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32929170B0F14004A9460 /* cocos2d.m */; };
-		43C329D7170B0F15004A9460 /* Place cocos2d here.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C3292A170B0F14004A9460 /* Place cocos2d here.txt */; };
 		43C329D8170B0F15004A9460 /* CCDirectorIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32930170B0F14004A9460 /* CCDirectorIOS.m */; };
 		43C329D9170B0F15004A9460 /* CCES2Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32932170B0F14004A9460 /* CCES2Renderer.m */; };
 		43C329DA170B0F15004A9460 /* CCGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32935170B0F14004A9460 /* CCGLView.m */; };
@@ -138,10 +134,8 @@
 		43C329EF170B0F15004A9460 /* CDXMacOSXSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32967170B0F14004A9460 /* CDXMacOSXSupport.m */; };
 		43C329F0170B0F15004A9460 /* CDXPropertyModifierAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32969170B0F14004A9460 /* CDXPropertyModifierAction.m */; };
 		43C329F1170B0F15004A9460 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3296B170B0F14004A9460 /* CocosDenshion.m */; };
-		43C329F2170B0F15004A9460 /* Place CocosDenshion here.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C3296C170B0F14004A9460 /* Place CocosDenshion here.txt */; };
 		43C329F3170B0F15004A9460 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 43C3296D170B0F14004A9460 /* README.md */; };
 		43C329F4170B0F15004A9460 /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3296F170B0F14004A9460 /* SimpleAudioEngine.m */; };
-		43C329F5170B0F15004A9460 /* Place kazmath here.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C32982170B0F14004A9460 /* Place kazmath here.txt */; };
 		43C329F6170B0F15004A9460 /* aabb.c in Sources */ = {isa = PBXBuildFile; fileRef = 43C32984170B0F14004A9460 /* aabb.c */; };
 		43C329F7170B0F15004A9460 /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 43C32985170B0F14004A9460 /* ChangeLog */; };
 		43C329F8170B0F15004A9460 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C32986170B0F14004A9460 /* CMakeLists.txt */; };
@@ -170,6 +164,8 @@
 		9A5D24A5170A94DA0030D4DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D24A4170A94DA0030D4DD /* Foundation.framework */; };
 		9A5D24A7170A94DA0030D4DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D24A6170A94DA0030D4DD /* CoreGraphics.framework */; };
 		9A5D24A9170A94DA0030D4DD /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D24A8170A94DA0030D4DD /* GameKit.framework */; };
+		D6FB68FA17CE9C3200916FE9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FB68F917CE9C3200916FE9 /* CoreText.framework */; };
+		D6FB68FD17CE9C6700916FE9 /* CCFontDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FB68FC17CE9C6700916FE9 /* CCFontDefinition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -230,9 +226,6 @@
 		43C3287B170B0DBE004A9460 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Resources-ios/Info.plist"; sourceTree = "<group>"; };
 		43C3287C170B0DBE004A9460 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = "Resources-ios/iTunesArtwork"; sourceTree = "<group>"; };
 		43C32889170B0E9F004A9460 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = "Resources-ios/Prefix.pch"; sourceTree = "<group>"; };
-		43C3288A170B0EF3004A9460 /* LICENSE_cocos2d.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE_cocos2d.txt; path = libs/LICENSE_cocos2d.txt; sourceTree = SOURCE_ROOT; };
-		43C3288B170B0EF3004A9460 /* LICENSE_CocosDenshion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE_CocosDenshion.txt; path = libs/LICENSE_CocosDenshion.txt; sourceTree = SOURCE_ROOT; };
-		43C3288C170B0EF3004A9460 /* LICENSE_Kazmath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE_Kazmath.txt; path = libs/LICENSE_Kazmath.txt; sourceTree = SOURCE_ROOT; };
 		43C32891170B0F14004A9460 /* CCAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAction.h; sourceTree = "<group>"; };
 		43C32892170B0F14004A9460 /* CCAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAction.m; sourceTree = "<group>"; };
 		43C32893170B0F14004A9460 /* CCActionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionCamera.h; sourceTree = "<group>"; };
@@ -386,7 +379,6 @@
 		43C32927170B0F14004A9460 /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
 		43C32928170B0F14004A9460 /* cocos2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2d.h; sourceTree = "<group>"; };
 		43C32929170B0F14004A9460 /* cocos2d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocos2d.m; sourceTree = "<group>"; };
-		43C3292A170B0F14004A9460 /* Place cocos2d here.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Place cocos2d here.txt"; sourceTree = "<group>"; };
 		43C3292C170B0F14004A9460 /* CCGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGL.h; sourceTree = "<group>"; };
 		43C3292D170B0F14004A9460 /* CCNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNS.h; sourceTree = "<group>"; };
 		43C3292F170B0F14004A9460 /* CCDirectorIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDirectorIOS.h; sourceTree = "<group>"; };
@@ -447,7 +439,6 @@
 		43C32969170B0F14004A9460 /* CDXPropertyModifierAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDXPropertyModifierAction.m; sourceTree = "<group>"; };
 		43C3296A170B0F14004A9460 /* CocosDenshion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosDenshion.h; sourceTree = "<group>"; };
 		43C3296B170B0F14004A9460 /* CocosDenshion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocosDenshion.m; sourceTree = "<group>"; };
-		43C3296C170B0F14004A9460 /* Place CocosDenshion here.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Place CocosDenshion here.txt"; sourceTree = "<group>"; };
 		43C3296D170B0F14004A9460 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		43C3296E170B0F14004A9460 /* SimpleAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine.h; sourceTree = "<group>"; };
 		43C3296F170B0F14004A9460 /* SimpleAudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAudioEngine.m; sourceTree = "<group>"; };
@@ -465,7 +456,6 @@
 		43C3297F170B0F14004A9460 /* vec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec2.h; sourceTree = "<group>"; };
 		43C32980170B0F14004A9460 /* vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
 		43C32981170B0F14004A9460 /* vec4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec4.h; sourceTree = "<group>"; };
-		43C32982170B0F14004A9460 /* Place kazmath here.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Place kazmath here.txt"; sourceTree = "<group>"; };
 		43C32984170B0F14004A9460 /* aabb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aabb.c; sourceTree = "<group>"; };
 		43C32985170B0F14004A9460 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
 		43C32986170B0F14004A9460 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
@@ -498,6 +488,9 @@
 		9A5D24A4170A94DA0030D4DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A5D24A6170A94DA0030D4DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9A5D24A8170A94DA0030D4DD /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		D6FB68F917CE9C3200916FE9 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D6FB68FB17CE9C6700916FE9 /* CCFontDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFontDefinition.h; path = ../../../../Cocos2D/cocos2d/CCFontDefinition.h; sourceTree = "<group>"; };
+		D6FB68FC17CE9C6700916FE9 /* CCFontDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCFontDefinition.m; path = ../../../../Cocos2D/cocos2d/CCFontDefinition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,6 +498,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FB68FA17CE9C3200916FE9 /* CoreText.framework in Frameworks */,
 				9A5D2499170A94DA0030D4DD /* QuartzCore.framework in Frameworks */,
 				9A5D249B170A94DA0030D4DD /* OpenGLES.framework in Frameworks */,
 				9A5D249D170A94DA0030D4DD /* OpenAL.framework in Frameworks */,
@@ -671,6 +665,8 @@
 				43C328BD170B0F14004A9460 /* CCDrawingPrimitives.m */,
 				43C328BE170B0F14004A9460 /* CCDrawNode.h */,
 				43C328BF170B0F14004A9460 /* CCDrawNode.m */,
+				D6FB68FB17CE9C6700916FE9 /* CCFontDefinition.h */,
+				D6FB68FC17CE9C6700916FE9 /* CCFontDefinition.m */,
 				43C328C0170B0F14004A9460 /* ccFPSImages.h */,
 				43C328C1170B0F14004A9460 /* ccFPSImages.m */,
 				43C328C2170B0F14004A9460 /* CCGLProgram.h */,
@@ -777,7 +773,6 @@
 				43C32927170B0F14004A9460 /* ccTypes.h */,
 				43C32928170B0F14004A9460 /* cocos2d.h */,
 				43C32929170B0F14004A9460 /* cocos2d.m */,
-				43C3292A170B0F14004A9460 /* Place cocos2d here.txt */,
 				43C3292B170B0F14004A9460 /* Platforms */,
 				43C32944170B0F14004A9460 /* Support */,
 			);
@@ -878,7 +873,6 @@
 				43C32969170B0F14004A9460 /* CDXPropertyModifierAction.m */,
 				43C3296A170B0F14004A9460 /* CocosDenshion.h */,
 				43C3296B170B0F14004A9460 /* CocosDenshion.m */,
-				43C3296C170B0F14004A9460 /* Place CocosDenshion here.txt */,
 				43C3296D170B0F14004A9460 /* README.md */,
 				43C3296E170B0F14004A9460 /* SimpleAudioEngine.h */,
 				43C3296F170B0F14004A9460 /* SimpleAudioEngine.m */,
@@ -891,7 +885,6 @@
 			isa = PBXGroup;
 			children = (
 				43C32971170B0F14004A9460 /* include */,
-				43C32982170B0F14004A9460 /* Place kazmath here.txt */,
 				43C32983170B0F14004A9460 /* src */,
 			);
 			name = kazmath;
@@ -988,6 +981,7 @@
 		9A5D2497170A94DA0030D4DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D6FB68F917CE9C3200916FE9 /* CoreText.framework */,
 				9A5D2498170A94DA0030D4DD /* QuartzCore.framework */,
 				9A5D249A170A94DA0030D4DD /* OpenGLES.framework */,
 				9A5D249C170A94DA0030D4DD /* OpenAL.framework */,
@@ -1007,9 +1001,6 @@
 				43C32890170B0F14004A9460 /* cocos2d */,
 				43C32960170B0F14004A9460 /* CocosDenshion */,
 				43C32970170B0F14004A9460 /* kazmath */,
-				43C3288A170B0EF3004A9460 /* LICENSE_cocos2d.txt */,
-				43C3288B170B0EF3004A9460 /* LICENSE_CocosDenshion.txt */,
-				43C3288C170B0EF3004A9460 /* LICENSE_Kazmath.txt */,
 			);
 			name = libs;
 			path = Spine;
@@ -1080,13 +1071,7 @@
 				43C32885170B0DBE004A9460 /* Icon.png in Resources */,
 				43C32886170B0DBE004A9460 /* Icon@2x.png in Resources */,
 				43C32888170B0DBE004A9460 /* iTunesArtwork in Resources */,
-				43C3288D170B0EF3004A9460 /* LICENSE_cocos2d.txt in Resources */,
-				43C3288E170B0EF3004A9460 /* LICENSE_CocosDenshion.txt in Resources */,
-				43C3288F170B0EF3004A9460 /* LICENSE_Kazmath.txt in Resources */,
-				43C329D7170B0F15004A9460 /* Place cocos2d here.txt in Resources */,
-				43C329F2170B0F15004A9460 /* Place CocosDenshion here.txt in Resources */,
 				43C329F3170B0F15004A9460 /* README.md in Resources */,
-				43C329F5170B0F15004A9460 /* Place kazmath here.txt in Resources */,
 				43C329F7170B0F15004A9460 /* ChangeLog in Resources */,
 				43C329F8170B0F15004A9460 /* CMakeLists.txt in Resources */,
 			);
@@ -1190,6 +1175,7 @@
 				43C329D9170B0F15004A9460 /* CCES2Renderer.m in Sources */,
 				43C329DA170B0F15004A9460 /* CCGLView.m in Sources */,
 				43C329DB170B0F15004A9460 /* CCTouchDispatcher.m in Sources */,
+				D6FB68FD17CE9C6700916FE9 /* CCFontDefinition.m in Sources */,
 				43C329DC170B0F15004A9460 /* CCTouchHandler.m in Sources */,
 				43C329DD170B0F15004A9460 /* CCDirectorMac.m in Sources */,
 				43C329DE170B0F15004A9460 /* CCEventDispatcher.m in Sources */,
