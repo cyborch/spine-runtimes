@@ -167,7 +167,6 @@
 		D6FB68FA17CE9C3200916FE9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FB68F917CE9C3200916FE9 /* CoreText.framework */; };
 		D6FB68FD17CE9C6700916FE9 /* CCFontDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FB68FC17CE9C6700916FE9 /* CCFontDefinition.m */; };
 		D6FB690817CEBE8700916FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D24A4170A94DA0030D4DD /* Foundation.framework */; };
-		D6FB690D17CEBE8700916FE9 /* Spine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6FB690C17CEBE8700916FE9 /* Spine.h */; };
 		D6FB691617CEBE8700916FE9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FB691517CEBE8700916FE9 /* XCTest.framework */; };
 		D6FB691717CEBE8700916FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D24A4170A94DA0030D4DD /* Foundation.framework */; };
 		D6FB691817CEBE8700916FE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D24A2170A94DA0030D4DD /* UIKit.framework */; };
@@ -322,7 +321,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				D6FB690D17CEBE8700916FE9 /* Spine.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,8 +651,6 @@
 		D6FB68FC17CE9C6700916FE9 /* CCFontDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCFontDefinition.m; path = ../../../../Cocos2D/cocos2d/CCFontDefinition.m; sourceTree = "<group>"; };
 		D6FB690717CEBE8700916FE9 /* libSpine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSpine.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6FB690B17CEBE8700916FE9 /* Spine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spine-Prefix.pch"; sourceTree = "<group>"; };
-		D6FB690C17CEBE8700916FE9 /* Spine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Spine.h; sourceTree = "<group>"; };
-		D6FB690E17CEBE8700916FE9 /* Spine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spine.m; sourceTree = "<group>"; };
 		D6FB691417CEBE8700916FE9 /* SpineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6FB691517CEBE8700916FE9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D6FB691E17CEBE8700916FE9 /* SpineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpineTests-Info.plist"; sourceTree = "<group>"; };
@@ -1202,8 +1198,6 @@
 		D6FB690917CEBE8700916FE9 /* Spine */ = {
 			isa = PBXGroup;
 			children = (
-				D6FB690C17CEBE8700916FE9 /* Spine.h */,
-				D6FB690E17CEBE8700916FE9 /* Spine.m */,
 				D6FB690A17CEBE8700916FE9 /* Supporting Files */,
 			);
 			path = Spine;
