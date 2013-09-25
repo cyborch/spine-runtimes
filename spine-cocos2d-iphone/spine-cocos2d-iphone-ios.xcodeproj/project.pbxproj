@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43C3282B170B0BF6004A9460 /* ExampleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32827170B0BF6004A9460 /* ExampleLayer.m */; };
 		43C3282F170B0C19004A9460 /* spine-cocos2d-iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C3282D170B0C19004A9460 /* spine-cocos2d-iphone.m */; };
 		43C32855170B0C6C004A9460 /* Animation.c in Sources */ = {isa = PBXBuildFile; fileRef = 43C32830170B0C6C004A9460 /* Animation.c */; };
 		43C32856170B0C6C004A9460 /* AnimationState.c in Sources */ = {isa = PBXBuildFile; fileRef = 43C32832170B0C6C004A9460 /* AnimationState.c */; };
@@ -151,8 +150,6 @@
 		43C32A02170B0F15004A9460 /* vec2.c in Sources */ = {isa = PBXBuildFile; fileRef = 43C32991170B0F14004A9460 /* vec2.c */; };
 		43C32A03170B0F15004A9460 /* vec3.c in Sources */ = {isa = PBXBuildFile; fileRef = 43C32992170B0F14004A9460 /* vec3.c */; };
 		43C32A04170B0F15004A9460 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 43C32993170B0F14004A9460 /* vec4.c */; };
-		43C32A06170B0F93004A9460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C32A05170B0F93004A9460 /* main.m */; };
-		43C32A09170B10FF004A9460 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43C32A08170B10FF004A9460 /* AppDelegate.mm */; };
 		43DB2A3D172C16BC003045C5 /* CCSkeleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB2A3A172C16BC003045C5 /* CCSkeleton.m */; };
 		43DB2A3E172C16BC003045C5 /* CCSkeletonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB2A3C172C16BC003045C5 /* CCSkeletonAnimation.m */; };
 		9A5D2499170A94DA0030D4DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5D2498170A94DA0030D4DD /* QuartzCore.framework */; };
@@ -327,8 +324,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		43C32826170B0BF6004A9460 /* ExampleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleLayer.h; path = example/ExampleLayer.h; sourceTree = "<group>"; };
-		43C32827170B0BF6004A9460 /* ExampleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleLayer.m; path = example/ExampleLayer.m; sourceTree = "<group>"; };
 		43C3282D170B0C19004A9460 /* spine-cocos2d-iphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "spine-cocos2d-iphone.m"; path = "src/spine/spine-cocos2d-iphone.m"; sourceTree = "<group>"; };
 		43C3282E170B0C19004A9460 /* spine-cocos2d-iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "spine-cocos2d-iphone.h"; path = "src/spine/spine-cocos2d-iphone.h"; sourceTree = "<group>"; };
 		43C32830170B0C6C004A9460 /* Animation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Animation.c; path = "../spine-c/src/spine/Animation.c"; sourceTree = "<group>"; };
@@ -629,9 +624,6 @@
 		43C32991170B0F14004A9460 /* vec2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec2.c; sourceTree = "<group>"; };
 		43C32992170B0F14004A9460 /* vec3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec3.c; sourceTree = "<group>"; };
 		43C32993170B0F14004A9460 /* vec4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec4.c; sourceTree = "<group>"; };
-		43C32A05170B0F93004A9460 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Resources-ios/main.m"; sourceTree = "<group>"; };
-		43C32A07170B10FF004A9460 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Resources-ios/AppDelegate.h"; sourceTree = "<group>"; };
-		43C32A08170B10FF004A9460 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "Resources-ios/AppDelegate.mm"; sourceTree = "<group>"; };
 		43DB2A39172C16BC003045C5 /* CCSkeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCSkeleton.h; path = src/spine/CCSkeleton.h; sourceTree = "<group>"; };
 		43DB2A3A172C16BC003045C5 /* CCSkeleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCSkeleton.m; path = src/spine/CCSkeleton.m; sourceTree = "<group>"; };
 		43DB2A3B172C16BC003045C5 /* CCSkeletonAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCSkeletonAnimation.h; path = src/spine/CCSkeletonAnimation.h; sourceTree = "<group>"; };
@@ -703,11 +695,6 @@
 			children = (
 				43C32822170B0BC2004A9460 /* spine-c */,
 				43C32823170B0BC7004A9460 /* spine-cocos2d-iphone */,
-				43C32826170B0BF6004A9460 /* ExampleLayer.h */,
-				43C32827170B0BF6004A9460 /* ExampleLayer.m */,
-				43C32A07170B10FF004A9460 /* AppDelegate.h */,
-				43C32A08170B10FF004A9460 /* AppDelegate.mm */,
-				43C32A05170B0F93004A9460 /* main.m */,
 				43C32889170B0E9F004A9460 /* Prefix.pch */,
 			);
 			name = Classes;
@@ -1357,7 +1344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C3282B170B0BF6004A9460 /* ExampleLayer.m in Sources */,
 				43C3282F170B0C19004A9460 /* spine-cocos2d-iphone.m in Sources */,
 				43C32855170B0C6C004A9460 /* Animation.c in Sources */,
 				43C32856170B0C6C004A9460 /* AnimationState.c in Sources */,
@@ -1485,8 +1471,6 @@
 				43C32A02170B0F15004A9460 /* vec2.c in Sources */,
 				43C32A03170B0F15004A9460 /* vec3.c in Sources */,
 				43C32A04170B0F15004A9460 /* vec4.c in Sources */,
-				43C32A06170B0F93004A9460 /* main.m in Sources */,
-				43C32A09170B10FF004A9460 /* AppDelegate.mm in Sources */,
 				43DB2A3D172C16BC003045C5 /* CCSkeleton.m in Sources */,
 				43DB2A3E172C16BC003045C5 /* CCSkeletonAnimation.m in Sources */,
 			);
